@@ -2,10 +2,11 @@
 
 [在线浏览](https://lyaiya.github.io/Minecraft-Resource-Guide/)
 
-## 仓库介绍
+## 介绍
 
 一些自己收录的 Minecraft 相关资源。
 
-## ISSUE/PR
+## 贡献
 
-要是你和我一样闲着没事干，或者有出错的地方，可以新建 Issue，也可以直接发起 PR。
+- 有哪里不对？创建 [Issue](https://github.com/Lyaiya/Minecraft-Resource-Guide/issues)。
+- 想加新东西？创建 [Discussion](https://github.com/Lyaiya/Minecraft-Resource-Guide/discussions) / 发起 [PR](https://github.com/Lyaiya/Minecraft-Resource-Guide/pulls)。
