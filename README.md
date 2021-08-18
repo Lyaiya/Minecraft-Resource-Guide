@@ -1,16 +1,10 @@
 # Minecraft Resource Guide
 
+[在线浏览](https://lyaiya.github.io/Minecraft-Resource-Guide/)
+
 ## 仓库介绍
 
-一些自己收录的 Minecraft 资源。
-
-## 仓库说明
-
-### 模组篇
-
-- 尽可能地收录较为优质且合我胃口的模组。
-- 收录的模组我或多或少都有接触过或了解过。
-- 不会收录主观上我不喜欢的模组。（如虚无世界和 ProjectE）
+一些自己收录的 Minecraft 相关资源。
 
 ## ISSUE/PR
 
