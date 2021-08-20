@@ -9,19 +9,23 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
     />
+
     <!-- Docsify v4 -->
     <link
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
     />
+
     <!-- docsify-darklight-theme -->
     <link
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
     />
   </head>
+
   <body>
     <div id="app">加载中……</div>
+
     <script>
       window.$docsify = {
         name: "Minecraft Resource Guide",
@@ -29,10 +33,17 @@
         loadSidebar: true,
         auto2top: true,
         formatUpdated: "{MM}/{DD} {HH}:{mm}",
+        search: {
+          placeholder: "搜索",
+          noData: "找不到！",
+        },
       };
     </script>
+
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+
     <!-- docsify-darklight-theme -->
     <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
   </body>
