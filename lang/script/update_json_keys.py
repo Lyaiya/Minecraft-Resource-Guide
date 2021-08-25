@@ -134,7 +134,7 @@ def DumpJsonWithStr(json_str: str, json_name: str):
 # 使用 Dict 导出 JSON
 def DumpJsonWithDict(json_dict: dict, json_name: str):
     # 判断字典是否为空
-    if not dict:
+    if not json_dict:
         return
 
     with open(json_name, "wb") as dump_f:
