@@ -123,12 +123,20 @@ def GetUpdatedJsonStr(json_dict: dict, json_str: str) -> str:
 
 # 使用 Str 导出 JSON
 def DumpJsonWithStr(json_str: str, json_name: str):
+    # 判断字符串是否为空
+    if len(json_str) == 0:
+        return
+
     with open(json_name, "w", encoding=current_encoding, newline=str()) as dump_f:
         dump_f.write(json_str)
 
 
 # 使用 Dict 导出 JSON
 def DumpJsonWithDict(json_dict: dict, json_name: str):
+    # 判断字典是否为空
+    if not dict:
+        return
+
     with open(json_name, "wb") as dump_f:
         dump_f.write(orjson.dumps(json_dict, option=orjson.OPT_INDENT_2))
 
