@@ -121,7 +121,7 @@ def GetUpdatedJsonStr(json_dict: dict, json_str: str) -> str:
     return final_json_str
 
 
-# 使用 Str 导出 JSON
+# 根据字符串导出 JSON
 def DumpJsonWithStr(json_str: str, json_name: str):
     # 判断字符串是否为空
     if len(json_str) == 0:
@@ -131,7 +131,7 @@ def DumpJsonWithStr(json_str: str, json_name: str):
         dump_f.write(json_str)
 
 
-# 使用 Dict 导出 JSON
+# 根据字典导出 JSON
 def DumpJsonWithDict(json_dict: dict, json_name: str):
     # 判断字典是否为空
     if not json_dict:
@@ -146,7 +146,7 @@ if __name__ == "__main__":
     # 切换工作路径
     SwitchWorkPath()
 
-    # 定义字符串
+    # 定义文件名字符串
     origin_json_name = "en_us.json"
     compare_json_name = "zh_cn.json"
     new_json_name = "zh_cn_new.json"
@@ -166,6 +166,6 @@ if __name__ == "__main__":
     # 获得更新后的 JSON 字符串
     final_json_str = GetUpdatedJsonStr(new_json_dict, origin_json_str)
 
-    # 导出 Json
+    # 导出 JSON
     DumpJsonWithStr(final_json_str, new_json_name)
     DumpJsonWithDict(old_json_dict, old_json_name)
