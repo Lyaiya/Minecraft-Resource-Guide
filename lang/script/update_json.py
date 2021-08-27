@@ -99,7 +99,7 @@ def GetUpdatedJsonDict(origin_json_dict: dict, compare_json_dict: dict, deleteNe
 
 # 获取正则表达式模版
 def GetPattern(key: str) -> str:
-    return regex.compile(r'\"{0}\":\s*\"(.*?)\"'.format(key))
+    return regex.compile(r'\"{0}\":\s*\"(.*?)\"\s*,'.format(key))
 
 
 # 获取更新后的 JSON 字符串
