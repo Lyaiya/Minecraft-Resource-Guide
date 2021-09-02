@@ -127,6 +127,7 @@ def DumpJsonWithStr(json_str: str, json_name: str):
     if len(json_str) == 0:
         return
 
+    # FIXME 值有换行符会出问题
     with open(json_name, "w", encoding=current_encoding, newline=str()) as dump_f:
         dump_f.write(json_str)
 
