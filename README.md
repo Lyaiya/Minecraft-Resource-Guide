@@ -8,5 +8,4 @@
 
 ## 贡献
 
-- 有哪里不对？创建 [Issue](https://github.com/Lyaiya/Minecraft-Resource-Guide/issues)。
-- 想加新东西？创建 [Discussion](https://github.com/Lyaiya/Minecraft-Resource-Guide/discussions) / 发起 [PR](https://github.com/Lyaiya/Minecraft-Resource-Guide/pulls)。
+有哪里不对？想加新东西？提交 [Issue](https://github.com/Lyaiya/Minecraft-Resource-Guide/issues) / 发起 [PR](https://github.com/Lyaiya/Minecraft-Resource-Guide/pulls)。
