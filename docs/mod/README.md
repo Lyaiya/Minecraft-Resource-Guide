@@ -8,3 +8,7 @@
 - 收录的模组我或多或少都有了解或接触过。
 - 分类方式一定程度上参考了 MCBBS / MCMOD 的模组分类。
 - 不太可能收录主观上我**非常不喜欢**的模组~~（点名批评虚无世界、ProjectE）~~。
+
+## 开发
+
+如果你想开发模组，可以在 [Minecraft Developer Guide 我的世界开发者中文指南](https://github.com/Mouse0w0/MinecraftDeveloperGuide) 寻找相关资料。

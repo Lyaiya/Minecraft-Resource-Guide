@@ -12,6 +12,6 @@
 
 此文档由 [docsify](https://docsify.js.org/) 生成。
 
-### 插件
+### docsify 插件
 
 - 主题切换：[docsify-darklight-theme](https://docsify-darklight-theme.boopathikumar.me/)
