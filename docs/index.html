@@ -21,6 +21,12 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
     />
+
+    <!-- docsify-sidebar-collapse 文件夹样式 -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css"
+    />
   </head>
 
   <body>
@@ -30,9 +36,12 @@
       window.$docsify = {
         name: "Minecraft Resource Guide",
         repo: "Lyaiya/Minecraft-Resource-Guide",
+        homepage:
+          "https://raw.githubusercontent.com/Lyaiya/Minecraft-Resource-Guide/master/README.md",
         loadSidebar: true,
+        maxLevel: 4,
+        subMaxLevel: 2,
         auto2top: true,
-        formatUpdated: "{MM}/{DD} {HH}:{mm}",
         search: {
           placeholder: "搜索",
           noData: "找不到！",
@@ -46,5 +55,8 @@
 
     <!-- docsify-darklight-theme -->
     <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+
+    <!-- docsify-sidebar-collapse -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   </body>
 </html>

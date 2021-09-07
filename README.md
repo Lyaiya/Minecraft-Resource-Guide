@@ -8,4 +8,15 @@
 
 ## 贡献
 
-有哪里不对？想加新东西？提交 [Issue](https://github.com/Lyaiya/Minecraft-Resource-Guide/issues) / 发起 [PR](https://github.com/Lyaiya/Minecraft-Resource-Guide/pulls)。
+有哪里不对？想加新东西？
+
+可以提交 [Issue](https://github.com/Lyaiya/Minecraft-Resource-Guide/issues) / [PR](https://github.com/Lyaiya/Minecraft-Resource-Guide/pulls)。
+
+## 关于
+
+此文档由 [docsify](https://docsify.js.org/) 生成。
+
+### docsify 插件
+
+- 主题切换：[docsify-darklight-theme](https://docsify-darklight-theme.boopathikumar.me/)
+- 侧边栏折叠：[docsify-sidebar-collapse](https://github.com/iPeng6/docsify-sidebar-collapse)
