@@ -1,8 +1,8 @@
 import os
 from pathlib import Path
 
-import orjson
 import regex
+import ujson
 
 current_encoding = "utf-8"
 
@@ -30,7 +30,7 @@ def GetJsonDict(path_name: str) -> dict:
 
     if isPathExists(path_name):
         with open(path_name, "rb") as load_f:
-            json_dict = orjson.loads(load_f.read())
+            json_dict = ujson.loads(load_f.read())
 
     return json_dict
 
@@ -140,7 +140,7 @@ def DumpJsonWithDict(json_dict: dict, path_name: str):
         return
 
     with open(path_name, "wb") as dump_f:
-        dump_f.write(orjson.dumps(json_dict, option=orjson.OPT_INDENT_2))
+        ujson.dumps(json_dict, dump_f)
 
 
 # 主程序
