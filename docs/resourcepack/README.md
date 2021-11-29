@@ -8,10 +8,10 @@
 
 ## 小型
 
-| 名称（CurseForge）                                                                        | 相关链接 | 备注             |
-| ----------------------------------------------------------------------------------------- | -------- | ---------------- |
-| [Authentic Shadows](https://www.curseforge.com/minecraft/texture-packs/authentic-shadows) |          | 圆形阴影         |
-| [New Ores](https://www.curseforge.com/minecraft/texture-packs/new-ores)                   |          | 移植最新版本纹理 |
+| 名称（CurseForge）                                                                        | 相关链接 | 备注                   |
+| ----------------------------------------------------------------------------------------- | -------- | ---------------------- |
+| [Authentic Shadows](https://www.curseforge.com/minecraft/texture-packs/authentic-shadows) |          | 圆形阴影               |
+| [New Ores](https://www.curseforge.com/minecraft/texture-packs/new-ores)                   |          | 移植最新版本的矿石纹理 |
 
 ## 模组支持
 
