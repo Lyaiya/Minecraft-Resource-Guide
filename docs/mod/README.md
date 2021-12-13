@@ -20,3 +20,5 @@
 ## 其他信息
 
 如果你对模组开发感兴趣，可以在 [Minecraft Developer Guide 我的世界开发者中文指南](https://github.com/Mouse0w0/MinecraftDeveloperGuide) 寻找相关资料。
+
+此外还有一份其他人维护的 [模组列表](https://gist.github.com/NordicGamerFE/c89623db94844744b233eac717a71ca5)，主要是一些性能优化和 BUG 修复的模组，可供参考。
