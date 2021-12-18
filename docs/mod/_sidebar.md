@@ -51,7 +51,15 @@
       * [体验提升](mod/fabric/1.16.5/辅助类/体验提升.md)
       * [优化补丁](mod/fabric/1.18/辅助类/优化补丁.md)
     * 非核心类
+      * [装备与工具](mod/fabric/1.18/非核心类/装备与工具.md)
+      * [实用](mod/fabric/1.18/非核心类/装备与工具.md)
+      * [补充](mod/fabric/1.18/非核心类/补充.md)
+      * [农业](mod/fabric/1.18/非核心类/农业.md)
+      * [主题](mod/fabric/1.18/非核心类/主题.md)
+      * [装饰](mod/fabric/1.18/非核心类/装饰.md)
       * [世界生成](mod/fabric/1.18/非核心类/世界生成.md)
+      * [生物](mod/fabric/1.18/非核心类/生物.md)
+      * [杂项](mod/fabric/1.18/非核心类/杂项.md)
     * 核心类
       * [Fabric](mod/fabric/1.18/核心类/Fabric.md)
       * [科技](mod/fabric/1.18/核心类/科技.md)
