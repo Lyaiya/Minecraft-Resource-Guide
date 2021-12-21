@@ -7,7 +7,7 @@
 |   Forge    |     1.18.x     |   观望   |
 |   Forge    |     1.16.5     | 主要支持 |
 |   Forge    |     1.12.2     | 随缘更新 |
-|   Fabric   |     1.18.x     |   观望   |
+|   Fabric   |     1.18.x     | 初步支持 |
 |   Fabric   |     1.16.5     | 随缘更新 |
 
 ## 收录说明
@@ -21,4 +21,4 @@
 
 如果你对模组开发感兴趣，可以在 [Minecraft Developer Guide 我的世界开发者中文指南](https://github.com/Mouse0w0/MinecraftDeveloperGuide) 寻找相关资料。
 
-此外还有一份其他人维护的 [模组列表](https://gist.github.com/NordicGamerFE/c89623db94844744b233eac717a71ca5)，主要是一些性能优化和 BUG 修复的模组，可供参考。
+此外还有一份其他人维护的 [Useful Mods](https://github.com/NordicGamerFE/usefulmods)，主要是一些性能优化和 BUG 修复的模组，可供参考。
