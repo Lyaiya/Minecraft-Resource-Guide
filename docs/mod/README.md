@@ -17,8 +17,13 @@
 - 分类方式一定程度上参考了 MCBBS / MCMOD 的模组分类。
 - 不太可能收录主观上我**非常不喜欢**的模组~~（点名批评虚无世界、ProjectE）~~。
 
+## 推荐
+
+- [Useful Mods](https://github.com/NordicGamerFE/usefulmods)，收录了性能优化和 BUG 修复的模组。
+- [OptiFine Alternatives](https://lambdaurora.dev/optifine_alternatives/)，收录了 OptiFine 的替代模组。
+
 ## 其他信息
 
-如果你对模组开发感兴趣，可以在 [Minecraft Developer Guide 我的世界开发者中文指南](https://github.com/Mouse0w0/MinecraftDeveloperGuide) 寻找相关资料。
+若对模组开发感兴趣，可前往 [Minecraft Developer Guide 我的世界开发者中文指南](https://github.com/Mouse0w0/MinecraftDeveloperGuide) 寻找相关资料。
 
-此外还有一份其他人维护的 [Useful Mods](https://github.com/NordicGamerFE/usefulmods)，主要是一些性能优化和 BUG 修复的模组，可供参考。
+若对其他游戏的模组感兴趣，可前往 [Everything Resource Guide](https://lyaiya.github.io/Everything-Resource-Guide)。
