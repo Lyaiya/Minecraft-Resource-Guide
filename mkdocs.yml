@@ -25,5 +25,10 @@ theme:
     - navigation.top
     - search.highlight
 
+markdown_extensions:
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+
 repo_url: https://github.com/Lyaiya/Minecraft-Resource-Guide
 repo_name: Lyaiya/Minecraft-Resource-Guide
