@@ -14,11 +14,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
           python-version: 3.x
+
       - name: Install Material for MkDocs
         run: pip install mkdocs-material
+
+      - name: Install MkDocs Awesome Pages Plugin
+        run: pip install mkdocs-awesome-pages-plugin
+
       - name: Deploy GitHub Pages
         run: mkdocs gh-deploy --force
