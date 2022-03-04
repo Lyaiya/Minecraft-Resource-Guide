@@ -14,4 +14,4 @@
 
 ## 其他
 
-还有一份其他游戏的资源指南：[Everything Resource Guide](https://github.com/Lyaiya/Everything-Resource-Guide)
+还有一份其他游戏的资源指南：[Everything Resource Guide](https://lyaiya.github.io/Everything-Resource-Guide/)
