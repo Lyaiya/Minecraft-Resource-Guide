@@ -4,10 +4,10 @@
 
 | 模组加载器 | Minecraft 版本 |   维护状况   |
 | :--------: | :------------: | :----------: |
-|   Forge    |    1.18(.1)    | **主要更新** |
+|   Forge    |     1.18.2     | **主要更新** |
 |   Forge    |     1.16.5     |   随缘更新   |
 |   Forge    |     1.12.2     |   随缘更新   |
-|   Fabric   |    1.18(.1)    | **主要更新** |
+|   Fabric   |     1.18.2     | **主要更新** |
 |   Fabric   |     1.16.5     |   随缘更新   |
 
 ## 收录说明
@@ -22,6 +22,6 @@
 - [Useful Mods](https://github.com/NordicGamerFE/usefulmods)，收录了性能优化和 BUG 修复的模组
 - [OptiFine Alternatives](https://lambdaurora.dev/optifine_alternatives/)，收录了 OptiFine 的替代模组
 
-## 其他信息
+## 其他
 
 若对模组开发感兴趣，可前往 [Minecraft Developer Guide 我的世界开发者中文指南](https://github.com/Mouse0w0/MinecraftDeveloperGuide) 寻找相关资料。
