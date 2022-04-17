@@ -20,7 +20,7 @@
 ## 推荐
 
 - [Useful Mods](https://github.com/NordicGamerFE/usefulmods)，收录了性能优化和 BUG 修复的模组
-- [OptiFine Alternatives](https://lambdaurora.dev/optifine_alternatives/)，收录了 OptiFine 的替代模组
+- [OptiFine Alternatives](https://lambdaurora.dev/optifine_alternatives)，收录了 OptiFine 的替代模组
 
 ## 其他
 
