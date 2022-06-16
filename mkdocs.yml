@@ -32,6 +32,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - git-revision-date-localized
   - awesome-pages
 
 repo_url: https://github.com/Lyaiya/Minecraft-Resource-Guide
