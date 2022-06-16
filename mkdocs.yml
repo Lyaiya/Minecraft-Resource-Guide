@@ -4,12 +4,12 @@ theme:
   name: material
   language: zh
   palette:
-    - media: "(prefers-color-scheme: light)" 
+    - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: 切换到深色模式
-    - media: "(prefers-color-scheme: dark)" 
+    - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/toggle-switch
@@ -32,7 +32,9 @@ markdown_extensions:
 
 plugins:
   - search
-  - git-revision-date-localized
+  - git-revision-date-localized:
+    timezone: Asia/Shanghai
+    locale: zh
   - awesome-pages
 
 repo_url: https://github.com/Lyaiya/Minecraft-Resource-Guide
