@@ -25,8 +25,10 @@ jobs:
       - name: Install Material for MkDocs
         run: pip install mkdocs-material
 
-      - name: Install MkDocs Awesome Pages Plugin
-        run: pip install mkdocs-awesome-pages-plugin
+      - name: Install MkDocs Plugin
+        run: |
+          pip install mkdocs-awesome-pages-plugin
+          pip install mkdocs-git-revision-date-localized-plugin
 
       - name: Deploy GitHub Pages
         run: mkdocs gh-deploy --force
