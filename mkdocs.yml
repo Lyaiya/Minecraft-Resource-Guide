@@ -32,10 +32,10 @@ markdown_extensions:
 
 plugins:
   - search
+  - awesome-pages
   - git-revision-date-localized:
       timezone: Asia/Shanghai
       locale: zh
-  - awesome-pages
 
 repo_url: https://github.com/Lyaiya/Minecraft-Resource-Guide
 repo_name: Lyaiya/Minecraft-Resource-Guide
