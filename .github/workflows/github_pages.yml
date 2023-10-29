@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -23,10 +23,8 @@ jobs:
           python-version: 3.x
 
       - name: Install Material for MkDocs
-        run: pip install mkdocs-material
-
-      - name: Install MkDocs Plugin
         run: |
+          pip install mkdocs-material
           pip install mkdocs-awesome-pages-plugin
           pip install mkdocs-git-revision-date-localized-plugin
 
