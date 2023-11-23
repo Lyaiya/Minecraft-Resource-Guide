@@ -28,3 +28,11 @@
 最后还需要将语言文件从 Unicode 转为中文。
 
 推荐一个转码网站：<https://www.bejson.com/convert/unicode_chinese/>（不要勾选“英文数字是否转义”）
+
+## en_us 语言文件
+
+en_us 语言文件存放在游戏客户端 jar 文件
+
+游戏客户端实例路径：`prismlauncher\libraries\com\mojang\minecraft\1.20.2\minecraft-1.20.2-client.jar`
+
+使用压缩软件打开 jar 文件， `assets\minecraft\lang\en_us.json` 即为需要的语言文件。
