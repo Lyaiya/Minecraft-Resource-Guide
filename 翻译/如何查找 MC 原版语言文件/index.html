@@ -3486,25 +3486,25 @@
 
 
 <h1 id="mc">如何查找 MC 原版语言文件</h1>
-<p>这里以查找 1.16 版本的简体中文语言文件来作说明。文本编辑器推荐选用 VSCODE（当然记事本也没问题）。</p>
-<p>打开 <code>.minecraft\assets\indexes\1.16.json</code> 文件（1.16 可替换为其他版本号）。</p>
-<p>有时候语言文件并非最新的，可以先删除上面的文件，然后通过启动器下载新文件（如 HMCL 的检查游戏完整性），再进行后续操作。</p>
-<p>按 <code>Ctrl+F</code> 搜索 <code>minecraft/lang/zh_cn.json</code>。（1.13 以下版本的语言文件后缀名为 lang）</p>
+<p>此处以查找 MC 1.16 版本的简体中文语言文件为例。文本编辑器推荐选用 VSCODE（当然记事本也没问题）。</p>
+<p>打开 <code>.minecraft\assets\indexes\1.16.json</code> 文件（MC 1.16 可替换为其他版本号）。</p>
+<p>注：语言文件可能并非最新，可先删除以上文件，然后通过启动器来下载新文件（如 HMCL 的检查游戏完整性），再进行后续操作。</p>
+<p>按 <code>Ctrl+F</code> 搜索 <code>minecraft/lang/zh_cn.json</code>。（MC 1.13 以下版本的语言文件后缀名为 lang）</p>
 <p>例如</p>
 <pre><code class="language-json">&quot;minecraft/lang/zh_cn.json&quot;: {
   &quot;hash&quot;: &quot;6026d3f2d27764e2d3eaae2eacd8ce7274a4ed2d&quot;,
   &quot;size&quot;: 378726
 },
 </code></pre>
-<p>记下 hash 的前两个字符，这里为 60。</p>
+<p>记下 hash 的前两个字符，此处为 60。</p>
 <p>打开 <code>.minecraft\assets\objects</code> 文件夹，再打开名称为 60 的文件夹。</p>
 <p>找到 <code>6026d3f2d27764e2d3eaae2eacd8ce7274a4ed2d</code> 文件。</p>
-<p>这个文件就是 1.16 的简体中文语言文件。</p>
-<p>最后还需要将语言文件从 Unicode 转为中文。</p>
+<p>此文件即为 MC 1.16 的简体中文语言文件。</p>
+<p>最后<strong>可能</strong>还需要将语言文件从 Unicode 转为中文。</p>
 <p>推荐一个转码网站：<a href="https://www.bejson.com/convert/unicode_chinese/">https://www.bejson.com/convert/unicode_chinese/</a>（不要勾选“英文数字是否转义”）</p>
 <h2 id="en_us">en_us 语言文件</h2>
 <p>en_us 语言文件存放在游戏客户端 jar 文件</p>
-<p>游戏客户端实例路径：<code>prismlauncher\libraries\com\mojang\minecraft\1.20.2\minecraft-1.20.2-client.jar</code></p>
+<p>游戏客户端实例路径：<code>prismlauncher\libraries\com\mojang\minecraft\1.20.1\minecraft-1.20.1-client.jar</code>（以 PrismLauncher 为例）</p>
 <p>使用压缩软件打开 jar 文件， <code>assets\minecraft\lang\en_us.json</code> 即为需要的语言文件。</p>
 
 
@@ -3528,7 +3528,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2023年11月23日</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2023年12月28日</span>
   </span>
 
     
